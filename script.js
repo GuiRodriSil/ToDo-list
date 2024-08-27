@@ -46,7 +46,7 @@ const addTodo = () => {
     }
 }
 
-// Function to update : (Edit/Delete) todo
+// Function to update(Edit/Delete) to do
 const updateTodo = (e) => {
     if (e.target.innerHTML === "Remove") {
         todoList.removeChild(e.target.parentElement);
